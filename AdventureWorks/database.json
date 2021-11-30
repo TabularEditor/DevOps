@@ -1,8 +1,9 @@
 {
   "name": "AdventureWorks",
-  "compatibilityLevel": 1500,
+  "compatibilityLevel": 1560,
   "model": {
     "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
     "annotations": [
       {
         "name": "TabularEditor_SerializeOptions",
