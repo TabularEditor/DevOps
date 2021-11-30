@@ -1,0 +1,12 @@
+{
+  "name": "Customer Id",
+  "dataType": "string",
+  "sourceColumn": "CustomerAlternateKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Product Id",
+  "dataType": "string",
+  "sourceColumn": "ProductAlternateKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

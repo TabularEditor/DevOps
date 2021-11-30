@@ -1,0 +1,11 @@
+{
+  "name": "Total Units",
+  "expression": "CALCULATE( SUM( 'Product Inventory'[Units Balance] ), LASTDATE( 'Product Inventory'[Movement Date] ) )",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    }
+  ]
+}

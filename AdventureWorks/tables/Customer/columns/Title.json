@@ -1,0 +1,12 @@
+{
+  "name": "Title",
+  "dataType": "string",
+  "sourceColumn": "Title",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

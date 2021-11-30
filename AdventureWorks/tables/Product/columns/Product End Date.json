@@ -1,0 +1,12 @@
+{
+  "name": "Product End Date",
+  "dataType": "dateTime",
+  "sourceColumn": "EndDate",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

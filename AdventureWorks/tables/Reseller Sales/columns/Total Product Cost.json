@@ -1,0 +1,16 @@
+{
+  "name": "Total Product Cost",
+  "dataType": "decimal",
+  "sourceColumn": "TotalProductCost",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" Accuracy=\"2\" ThousandSeparator=\"True\" xmlns=\"\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

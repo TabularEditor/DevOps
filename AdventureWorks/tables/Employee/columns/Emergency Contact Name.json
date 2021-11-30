@@ -1,0 +1,12 @@
+{
+  "name": "Emergency Contact Name",
+  "dataType": "string",
+  "sourceColumn": "EmergencyContactName",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

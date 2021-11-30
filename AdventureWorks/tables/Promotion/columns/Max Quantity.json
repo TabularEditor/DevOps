@@ -1,0 +1,12 @@
+{
+  "name": "Max Quantity",
+  "dataType": "int64",
+  "sourceColumn": "MaxQty",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

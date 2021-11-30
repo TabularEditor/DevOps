@@ -1,0 +1,51 @@
+{
+  "name": "Products OverStocked",
+  "expression": "CALCULATE( SUM( 'Product Inventory'[Product-Date OverStocked] ), LASTDATE( 'Product Inventory'[Movement Date] ) )",
+  "kpi": {
+    "targetExpression": "0",
+    "statusGraphic": "Three Symbols UnCircled Colored",
+    "statusExpression": [
+      "IF(",
+      "    ISBLANK( [Products OverStocked] ),",
+      "    BLANK( ),",
+      "    IF( [Products OverStocked] < 1, 1, IF( [Products OverStocked] < 5, 0, -1 ) )",
+      ")"
+    ],
+    "annotations": [
+      {
+        "name": "GoalType",
+        "value": "StaticValue"
+      },
+      {
+        "name": "KpiStatusType",
+        "value": "LinearReversed"
+      },
+      {
+        "name": "KpiThresholdType",
+        "value": "Absolute"
+      },
+      {
+        "name": "KpiThresholdOrdering",
+        "value": "Ascending"
+      },
+      {
+        "name": "KpiThresholdCount",
+        "value": "2"
+      },
+      {
+        "name": "KpiThreshold_0",
+        "value": "1"
+      },
+      {
+        "name": "KpiThreshold_1",
+        "value": "5"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    }
+  ]
+}

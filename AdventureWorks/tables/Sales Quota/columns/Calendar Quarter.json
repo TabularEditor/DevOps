@@ -1,0 +1,13 @@
+{
+  "name": "Calendar Quarter",
+  "dataType": "int64",
+  "sourceColumn": "CalendarQuarter",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

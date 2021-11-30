@@ -1,0 +1,11 @@
+{
+  "name": "Order Lines Count",
+  "expression": "[Reseller Order Lines Count] + [Internet Order Lines Count]",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

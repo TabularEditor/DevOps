@@ -1,0 +1,36 @@
+{
+  "name": "Calendar",
+  "levels": [
+    {
+      "name": "Year",
+      "ordinal": 0,
+      "column": "Calendar Year"
+    },
+    {
+      "name": "Semester",
+      "ordinal": 1,
+      "column": "Calendar Semester"
+    },
+    {
+      "name": "Quarter",
+      "ordinal": 2,
+      "column": "Calendar Quarter"
+    },
+    {
+      "name": "Month",
+      "ordinal": 3,
+      "column": "Month Name"
+    },
+    {
+      "name": "Day",
+      "ordinal": 4,
+      "column": "Day Of Month"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

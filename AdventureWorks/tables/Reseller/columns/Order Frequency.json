@@ -1,0 +1,12 @@
+{
+  "name": "Order Frequency",
+  "dataType": "string",
+  "sourceColumn": "OrderFrequency",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

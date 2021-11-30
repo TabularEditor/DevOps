@@ -1,0 +1,13 @@
+{
+  "name": "Day Name Of Week",
+  "dataType": "string",
+  "sourceColumn": "EnglishDayNameOfWeek",
+  "sortByColumn": "Day Number Of Week",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

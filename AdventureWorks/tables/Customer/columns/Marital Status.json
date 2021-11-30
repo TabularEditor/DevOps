@@ -1,0 +1,12 @@
+{
+  "name": "Marital Status",
+  "dataType": "string",
+  "sourceColumn": "MaritalStatus",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

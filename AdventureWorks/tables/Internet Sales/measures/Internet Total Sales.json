@@ -1,0 +1,10 @@
+{
+  "name": "Internet Total Sales",
+  "expression": "SUM( 'Internet Sales'[Sales Amount] )",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

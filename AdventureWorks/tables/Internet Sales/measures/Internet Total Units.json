@@ -1,0 +1,11 @@
+{
+  "name": "Internet Total Units",
+  "expression": "SUM( 'Internet Sales'[Order Quantity] )",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

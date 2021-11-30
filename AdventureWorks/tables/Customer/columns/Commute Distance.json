@@ -1,0 +1,12 @@
+{
+  "name": "Commute Distance",
+  "dataType": "string",
+  "sourceColumn": "CommuteDistance",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

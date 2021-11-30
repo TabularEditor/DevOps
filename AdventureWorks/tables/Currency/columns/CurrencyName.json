@@ -1,0 +1,12 @@
+{
+  "name": "CurrencyName",
+  "dataType": "string",
+  "sourceColumn": "CurrencyName",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

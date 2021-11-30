@@ -1,0 +1,13 @@
+{
+  "name": "Employee Photo",
+  "dataType": "binary",
+  "sourceColumn": "EmployeePhoto",
+  "isDefaultImage": true,
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

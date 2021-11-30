@@ -1,0 +1,13 @@
+{
+  "name": "Calendar Year",
+  "dataType": "int64",
+  "sourceColumn": "CalendarYear",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

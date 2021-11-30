@@ -1,0 +1,16 @@
+{
+  "name": "Employee",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimEmployee].* \t\tFROM [dbo].[DimEmployee]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization"
+    },
+    {
+      "name": "TableWidgetSerialization"
+    }
+  ]
+}

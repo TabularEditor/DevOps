@@ -1,0 +1,10 @@
+{
+  "name": "Reseller Previous Quarter Sales Proportion to QTD",
+  "expression": "[Reseller Previous Quarter Sales] * ( [Days In Current Quarter to Date] / [Days In Current Quarter] )",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

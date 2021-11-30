@@ -1,0 +1,12 @@
+{
+  "name": "State Province Code",
+  "dataType": "string",
+  "sourceColumn": "StateProvinceCode",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

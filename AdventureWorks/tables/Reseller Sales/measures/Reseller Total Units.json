@@ -1,0 +1,11 @@
+{
+  "name": "Reseller Total Units",
+  "expression": "SUM( 'Reseller Sales'[Order Quantity] )",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

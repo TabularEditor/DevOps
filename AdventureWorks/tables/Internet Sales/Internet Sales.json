@@ -1,0 +1,78 @@
+{
+  "name": "Internet Sales",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[FactInternetSales].*   FROM [dbo].[FactInternetSales] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "FactInternetSales"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"CurrencyKey\",",
+        "    \"toTable\": \"Currency\",",
+        "    \"toColumn\": \"CurrencyKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"CustomerKey\",",
+        "    \"toTable\": \"Customer\",",
+        "    \"toColumn\": \"CustomerKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"DueDateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\",",
+        "    \"isActive\": false",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"OrderDateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"ProductKey\",",
+        "    \"toTable\": \"Product\",",
+        "    \"toColumn\": \"ProductKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"PromotionKey\",",
+        "    \"toTable\": \"Promotion\",",
+        "    \"toColumn\": \"PromotionKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"SalesTerritoryKey\",",
+        "    \"toTable\": \"Sales Territory\",",
+        "    \"toColumn\": \"SalesTerritoryKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Internet Sales\",",
+        "    \"fromColumn\": \"ShipDateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\",",
+        "    \"isActive\": false",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Reseller Sales",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "FactResellerSales"
+    },
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[FactResellerSales].*   FROM [dbo].[FactResellerSales] "
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"CurrencyKey\",",
+        "    \"toTable\": \"Currency\",",
+        "    \"toColumn\": \"CurrencyKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"DueDateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\",",
+        "    \"isActive\": false",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"EmployeeKey\",",
+        "    \"toTable\": \"Employee\",",
+        "    \"toColumn\": \"EmployeeKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"OrderDateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"ProductKey\",",
+        "    \"toTable\": \"Product\",",
+        "    \"toColumn\": \"ProductKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"PromotionKey\",",
+        "    \"toTable\": \"Promotion\",",
+        "    \"toColumn\": \"PromotionKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"ResellerKey\",",
+        "    \"toTable\": \"Reseller\",",
+        "    \"toColumn\": \"ResellerKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"SalesTerritoryKey\",",
+        "    \"toTable\": \"Sales Territory\",",
+        "    \"toColumn\": \"SalesTerritoryKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Reseller Sales\",",
+        "    \"fromColumn\": \"ShipDateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\",",
+        "    \"isActive\": false",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

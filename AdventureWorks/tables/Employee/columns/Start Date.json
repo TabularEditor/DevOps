@@ -1,0 +1,12 @@
+{
+  "name": "Start Date",
+  "dataType": "dateTime",
+  "sourceColumn": "StartDate",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

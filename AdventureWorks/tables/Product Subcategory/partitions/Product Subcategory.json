@@ -1,0 +1,16 @@
+{
+  "name": "Product Subcategory",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimProductSubcategory].* \t\tFROM [dbo].[DimProductSubcategory]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "TableWidgetSerialization"
+    },
+    {
+      "name": "QueryEditorSerialization"
+    }
+  ]
+}

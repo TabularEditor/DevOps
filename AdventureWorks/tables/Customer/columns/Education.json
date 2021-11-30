@@ -1,0 +1,12 @@
+{
+  "name": "Education",
+  "dataType": "string",
+  "sourceColumn": "EnglishEducation",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

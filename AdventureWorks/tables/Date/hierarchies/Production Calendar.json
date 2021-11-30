@@ -1,0 +1,26 @@
+{
+  "name": "Production Calendar",
+  "levels": [
+    {
+      "name": "Year",
+      "ordinal": 0,
+      "column": "Calendar Year"
+    },
+    {
+      "name": "Week",
+      "ordinal": 1,
+      "column": "Week Of Year"
+    },
+    {
+      "name": "Week Day",
+      "ordinal": 2,
+      "column": "Day Name Of Week"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Sales Quota",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[FactSalesQuota].* \t\tFROM [dbo].[FactSalesQuota]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization"
+    },
+    {
+      "name": "TableWidgetSerialization"
+    }
+  ]
+}

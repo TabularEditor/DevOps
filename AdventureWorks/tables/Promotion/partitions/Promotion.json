@@ -1,0 +1,16 @@
+{
+  "name": "Promotion",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimPromotion].* \t\tFROM [dbo].[DimPromotion]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization"
+    },
+    {
+      "name": "TableWidgetSerialization"
+    }
+  ]
+}

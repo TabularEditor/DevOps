@@ -1,0 +1,12 @@
+{
+  "name": "te3-sql-training",
+  "connectionString": "Data Source=te3-training-sql.database.windows.net;Initial Catalog=AdventureWorksDW2019;Persist Security Info=True;User ID=sqlreader",
+  "impersonationMode": "impersonateServiceAccount",
+  "provider": "System.Data.SqlClient",
+  "annotations": [
+    {
+      "name": "ConnectionEditUISource",
+      "value": "SqlServer"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ParentEmployeeKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ParentEmployeeKey",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

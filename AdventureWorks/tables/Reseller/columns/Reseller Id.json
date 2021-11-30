@@ -1,0 +1,12 @@
+{
+  "name": "Reseller Id",
+  "dataType": "string",
+  "sourceColumn": "ResellerAlternateKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

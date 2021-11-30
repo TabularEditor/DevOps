@@ -1,0 +1,11 @@
+{
+  "name": "Total Units Sold",
+  "expression": "[Reseller Total Units] + [Internet Total Units]",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

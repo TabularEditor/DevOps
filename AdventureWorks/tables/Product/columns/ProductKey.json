@@ -1,0 +1,13 @@
+{
+  "name": "ProductKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ProductKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

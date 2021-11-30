@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "Product-Date UnderStocked",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "IF( 'Product Inventory'[Units Balance] < RELATED( Product[Reorder Point] ), 1, 0 )",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    }
+  ]
+}

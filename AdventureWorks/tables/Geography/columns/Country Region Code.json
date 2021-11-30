@@ -1,0 +1,12 @@
+{
+  "name": "Country Region Code",
+  "dataType": "string",
+  "sourceColumn": "CountryRegionCode",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

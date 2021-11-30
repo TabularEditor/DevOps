@@ -1,0 +1,17 @@
+{
+  "name": "Ship Date",
+  "dataType": "dateTime",
+  "sourceColumn": "ShipDate",
+  "formatString": "Short Date",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" xmlns=\"\" />"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

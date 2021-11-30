@@ -1,0 +1,12 @@
+{
+  "name": "Ship Date",
+  "dataType": "dateTime",
+  "sourceColumn": "ShipDate",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

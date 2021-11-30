@@ -1,0 +1,36 @@
+{
+  "name": "Fiscal",
+  "levels": [
+    {
+      "name": "Month",
+      "ordinal": 3,
+      "column": "Month Name"
+    },
+    {
+      "name": "Day",
+      "ordinal": 4,
+      "column": "Day Of Month"
+    },
+    {
+      "name": "Fiscal Year",
+      "ordinal": 0,
+      "column": "Fiscal Year"
+    },
+    {
+      "name": "Fiscal Semester",
+      "ordinal": 1,
+      "column": "Fiscal Semester"
+    },
+    {
+      "name": "Fiscal Quarter",
+      "ordinal": 2,
+      "column": "Fiscal Quarter"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

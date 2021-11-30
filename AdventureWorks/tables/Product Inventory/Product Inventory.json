@@ -1,0 +1,40 @@
+{
+  "name": "Product Inventory",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "FactProductInventory"
+    },
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[FactProductInventory].*   FROM [dbo].[FactProductInventory] "
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Product Inventory\",",
+        "    \"fromColumn\": \"DateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Product Inventory\",",
+        "    \"fromColumn\": \"ProductKey\",",
+        "    \"toTable\": \"Product\",",
+        "    \"toColumn\": \"ProductKey\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "calculated",
+  "name": "Gross Profit",
+  "dataType": "decimal",
+  "isDataTypeInferred": true,
+  "expression": "'Internet Sales'[Sales Amount] - 'Internet Sales'[Total Product Cost]",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" Accuracy=\"2\" ThousandSeparator=\"True\" xmlns=\"\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

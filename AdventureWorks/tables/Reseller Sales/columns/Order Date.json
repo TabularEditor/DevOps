@@ -1,0 +1,17 @@
+{
+  "name": "Order Date",
+  "dataType": "dateTime",
+  "sourceColumn": "OrderDate",
+  "formatString": "Short Date",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" xmlns=\"\" />"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

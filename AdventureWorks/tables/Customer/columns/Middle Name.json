@@ -1,0 +1,12 @@
+{
+  "name": "Middle Name",
+  "dataType": "string",
+  "sourceColumn": "MiddleName",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

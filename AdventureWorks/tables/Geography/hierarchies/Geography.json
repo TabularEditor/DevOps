@@ -1,0 +1,26 @@
+{
+  "name": "Geography",
+  "levels": [
+    {
+      "name": "Country Region",
+      "ordinal": 0,
+      "column": "Country Region Name"
+    },
+    {
+      "name": "State Province",
+      "ordinal": 1,
+      "column": "State Province Name"
+    },
+    {
+      "name": "City",
+      "ordinal": 2,
+      "column": "City"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

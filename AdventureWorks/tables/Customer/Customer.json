@@ -1,0 +1,34 @@
+{
+  "name": "Customer",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[DimCustomer].*   FROM [dbo].[DimCustomer] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DimCustomer"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Customer\",",
+        "    \"fromColumn\": \"GeographyKey\",",
+        "    \"toTable\": \"Geography\",",
+        "    \"toColumn\": \"GeographyKey\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

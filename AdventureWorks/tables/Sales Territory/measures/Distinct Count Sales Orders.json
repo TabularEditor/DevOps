@@ -1,0 +1,11 @@
+{
+  "name": "Distinct Count Sales Orders",
+  "expression": "[Reseller Distinct Count Sales Order] + [Internet Distinct Count Sales Order]",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Reseller",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DimReseller"
+    },
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[DimReseller].*   FROM [dbo].[DimReseller] "
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Reseller\",",
+        "    \"fromColumn\": \"GeographyKey\",",
+        "    \"toTable\": \"Geography\",",
+        "    \"toColumn\": \"GeographyKey\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

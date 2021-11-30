@@ -1,0 +1,13 @@
+{
+  "name": "Sales Order Line Number",
+  "dataType": "int64",
+  "sourceColumn": "SalesOrderLineNumber",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

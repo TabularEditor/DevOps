@@ -1,0 +1,16 @@
+{
+  "name": "Date",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimDate].* \t\tFROM [dbo].[DimDate]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "TableWidgetSerialization"
+    },
+    {
+      "name": "QueryEditorSerialization"
+    }
+  ]
+}

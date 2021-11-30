@@ -1,0 +1,25 @@
+{
+  "name": "Sales Territory",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DimSalesTerritory"
+    },
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[DimSalesTerritory].*   FROM [dbo].[DimSalesTerritory] "
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Product",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[DimProduct].*   FROM [dbo].[DimProduct] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DimProduct"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Product\",",
+        "    \"fromColumn\": \"ProductSubcategoryKey\",",
+        "    \"toTable\": \"Product Subcategory\",",
+        "    \"toColumn\": \"ProductSubcategoryKey\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

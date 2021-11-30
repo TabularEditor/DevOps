@@ -1,0 +1,12 @@
+{
+  "name": "Customer PO Number",
+  "dataType": "string",
+  "sourceColumn": "CustomerPONumber",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

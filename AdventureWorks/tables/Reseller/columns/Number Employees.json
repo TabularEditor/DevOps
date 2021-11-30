@@ -1,0 +1,13 @@
+{
+  "name": "Number Employees",
+  "dataType": "int64",
+  "sourceColumn": "NumberEmployees",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

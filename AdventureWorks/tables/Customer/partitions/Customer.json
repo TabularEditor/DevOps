@@ -1,0 +1,16 @@
+{
+  "name": "Customer",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimCustomer].* \t\tFROM [dbo].[DimCustomer]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "TableWidgetSerialization"
+    },
+    {
+      "name": "QueryEditorSerialization"
+    }
+  ]
+}

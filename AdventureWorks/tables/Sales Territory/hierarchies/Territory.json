@@ -1,0 +1,26 @@
+{
+  "name": "Territory",
+  "levels": [
+    {
+      "name": "Group",
+      "ordinal": 0,
+      "column": "Sales Territory Group"
+    },
+    {
+      "name": "Country",
+      "ordinal": 1,
+      "column": "Sales Territory Country"
+    },
+    {
+      "name": "Region",
+      "ordinal": 2,
+      "column": "Sales Territory Region"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

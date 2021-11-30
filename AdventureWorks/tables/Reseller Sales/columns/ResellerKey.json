@@ -1,0 +1,13 @@
+{
+  "name": "ResellerKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ResellerKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

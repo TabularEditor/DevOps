@@ -1,0 +1,40 @@
+{
+  "name": "Sales Quota",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "FactSalesQuota"
+    },
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[FactSalesQuota].*   FROM [dbo].[FactSalesQuota] "
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Sales Quota\",",
+        "    \"fromColumn\": \"DateKey\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"DateKey\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Sales Quota\",",
+        "    \"fromColumn\": \"EmployeeKey\",",
+        "    \"toTable\": \"Employee\",",
+        "    \"toColumn\": \"EmployeeKey\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

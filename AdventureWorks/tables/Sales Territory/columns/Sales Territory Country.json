@@ -1,0 +1,12 @@
+{
+  "name": "Sales Territory Country",
+  "dataType": "string",
+  "sourceColumn": "SalesTerritoryCountry",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Employee",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DimEmployee"
+    },
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[DimEmployee].*   FROM [dbo].[DimEmployee] "
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Employee\",",
+        "    \"fromColumn\": \"SalesTerritoryKey\",",
+        "    \"toTable\": \"Sales Territory\",",
+        "    \"toColumn\": \"SalesTerritoryKey\",",
+        "    \"isActive\": false",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

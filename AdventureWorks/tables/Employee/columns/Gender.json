@@ -1,0 +1,12 @@
+{
+  "name": "Gender",
+  "dataType": "string",
+  "sourceColumn": "Gender",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fiscal Quarter",
+  "dataType": "int64",
+  "sourceColumn": "FiscalQuarter",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

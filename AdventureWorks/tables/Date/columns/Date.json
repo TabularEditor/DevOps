@@ -1,0 +1,13 @@
+{
+  "name": "Date",
+  "dataType": "dateTime",
+  "isKey": true,
+  "sourceColumn": "FullDateAlternateKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

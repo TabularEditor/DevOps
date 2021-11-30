@@ -1,0 +1,9 @@
+{
+  "name": "Red",
+  "tablePermissions": [
+    {
+      "name": "Product",
+      "filterExpression": "Product[Color]=\"Red\""
+    }
+  ]
+}

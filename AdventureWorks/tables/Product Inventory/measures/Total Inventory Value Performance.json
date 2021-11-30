@@ -1,0 +1,70 @@
+{
+  "name": "Total Inventory Value Performance",
+  "expression": [
+    "IF(",
+    "    [Total Inventory Value] < [Total Inventory Optimal Value],",
+    "    -( 1 - ( [Total Inventory Value] / [Total Inventory Optimal Value] ) ),",
+    "    ( [Total Inventory Value] - [Total Inventory Optimal Value] )",
+    "        / ( [Total Inventory Maximum Value] - [Total Inventory Optimal Value] )",
+    ")"
+  ],
+  "kpi": {
+    "targetExpression": "0",
+    "statusGraphic": "Three Symbols UnCircled Colored",
+    "statusExpression": [
+      "IF(",
+      "    ISBLANK( [Total Inventory Value Performance] ),",
+      "    BLANK( ),",
+      "    IF(",
+      "        [Total Inventory Value Performance] < 0,",
+      "        IF( [Total Inventory Value Performance] < -0.2, -1, 0 ),",
+      "        IF( [Total Inventory Value Performance] < 0.6, 1, IF( [Total Inventory Value Performance] < 1, 0, -1 ) )",
+      "    )",
+      ")"
+    ],
+    "annotations": [
+      {
+        "name": "GoalType",
+        "value": "StaticValue"
+      },
+      {
+        "name": "KpiStatusType",
+        "value": "Centered"
+      },
+      {
+        "name": "KpiThresholdType",
+        "value": "Absolute"
+      },
+      {
+        "name": "KpiThresholdOrdering",
+        "value": "Ascending"
+      },
+      {
+        "name": "KpiThresholdCount",
+        "value": "4"
+      },
+      {
+        "name": "KpiThreshold_0",
+        "value": "-0.2"
+      },
+      {
+        "name": "KpiThreshold_1",
+        "value": "0"
+      },
+      {
+        "name": "KpiThreshold_2",
+        "value": "0.6"
+      },
+      {
+        "name": "KpiThreshold_3",
+        "value": "1"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    }
+  ]
+}

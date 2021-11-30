@@ -1,0 +1,12 @@
+{
+  "name": "Weight Unit Code",
+  "dataType": "string",
+  "sourceColumn": "WeightUnitMeasureCode",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

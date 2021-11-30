@@ -1,0 +1,14 @@
+{
+  "name": "PromotionKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "PromotionKey",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

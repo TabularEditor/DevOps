@@ -1,0 +1,12 @@
+{
+  "name": "Days To Manufacture",
+  "dataType": "int64",
+  "sourceColumn": "DaysToManufacture",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

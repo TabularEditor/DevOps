@@ -1,0 +1,9 @@
+{
+  "type": "rowNumber",
+  "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "isNullable": false,
+  "attributeHierarchy": {}
+}

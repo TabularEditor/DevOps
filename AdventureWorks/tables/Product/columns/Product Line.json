@@ -1,0 +1,12 @@
+{
+  "name": "Product Line",
+  "dataType": "string",
+  "sourceColumn": "ProductLine",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

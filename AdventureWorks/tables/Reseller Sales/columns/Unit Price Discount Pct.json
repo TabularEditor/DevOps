@@ -1,0 +1,13 @@
+{
+  "name": "Unit Price Discount Pct",
+  "dataType": "double",
+  "sourceColumn": "UnitPriceDiscountPct",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

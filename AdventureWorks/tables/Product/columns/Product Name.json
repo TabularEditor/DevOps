@@ -1,0 +1,13 @@
+{
+  "name": "Product Name",
+  "dataType": "string",
+  "sourceColumn": "EnglishProductName",
+  "isDefaultLabel": true,
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

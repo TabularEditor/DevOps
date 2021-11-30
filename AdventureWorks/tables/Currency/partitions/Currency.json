@@ -1,0 +1,16 @@
+{
+  "name": "Currency",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimCurrency].* \t\tFROM [dbo].[DimCurrency]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization"
+    },
+    {
+      "name": "TableWidgetSerialization"
+    }
+  ]
+}

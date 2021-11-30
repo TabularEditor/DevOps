@@ -1,0 +1,12 @@
+{
+  "name": "Units Out",
+  "dataType": "int64",
+  "sourceColumn": "UnitsOut",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    }
+  ]
+}

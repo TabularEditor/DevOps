@@ -1,0 +1,12 @@
+{
+  "name": "NameStyle",
+  "dataType": "boolean",
+  "sourceColumn": "NameStyle",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

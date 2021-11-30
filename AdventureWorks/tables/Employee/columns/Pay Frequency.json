@@ -1,0 +1,13 @@
+{
+  "name": "Pay Frequency",
+  "dataType": "int64",
+  "sourceColumn": "PayFrequency",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

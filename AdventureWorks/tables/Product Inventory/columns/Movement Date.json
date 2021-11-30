@@ -1,0 +1,17 @@
+{
+  "name": "Movement Date",
+  "dataType": "dateTime",
+  "sourceColumn": "MovementDate",
+  "formatString": "Short Date",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" xmlns=\"\" />"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    }
+  ]
+}

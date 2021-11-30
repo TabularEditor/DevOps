@@ -1,0 +1,31 @@
+{
+  "name": "Category",
+  "levels": [
+    {
+      "name": "Category",
+      "ordinal": 0,
+      "column": "Product Category Name"
+    },
+    {
+      "name": "SubCategory",
+      "ordinal": 1,
+      "column": "Product SubCategory Name"
+    },
+    {
+      "name": "Model",
+      "ordinal": 2,
+      "column": "Model Name"
+    },
+    {
+      "name": "Product",
+      "ordinal": 3,
+      "column": "Product Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Reseller Current Quarter Sales Performance",
+  "expression": "IFERROR( [Reseller Current Quarter Sales] / [Reseller Previous Quarter Sales Proportion to QTD], BLANK( ) )",
+  "kpi": {
+    "targetExpression": "1.1",
+    "statusGraphic": "Three Symbols UnCircled Colored",
+    "statusExpression": [
+      "IF(",
+      "    ISBLANK( [Reseller Current Quarter Sales Performance] ),",
+      "    BLANK( ),",
+      "    IF(",
+      "        [Reseller Current Quarter Sales Performance] < 0.8,",
+      "        -1,",
+      "        IF( [Reseller Current Quarter Sales Performance] < 1.07, 0, 1 )",
+      "    )",
+      ")"
+    ],
+    "annotations": [
+      {
+        "name": "GoalType",
+        "value": "StaticValue"
+      },
+      {
+        "name": "KpiStatusType",
+        "value": "Linear"
+      },
+      {
+        "name": "KpiThresholdType",
+        "value": "Absolute"
+      },
+      {
+        "name": "KpiThresholdOrdering",
+        "value": "Ascending"
+      },
+      {
+        "name": "KpiThresholdCount",
+        "value": "2"
+      },
+      {
+        "name": "KpiThreshold_0",
+        "value": "0.8"
+      },
+      {
+        "name": "KpiThreshold_1",
+        "value": "1.07"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

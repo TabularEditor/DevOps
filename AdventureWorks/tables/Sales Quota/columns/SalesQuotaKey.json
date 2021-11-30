@@ -1,0 +1,14 @@
+{
+  "name": "SalesQuotaKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SalesQuotaKey",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

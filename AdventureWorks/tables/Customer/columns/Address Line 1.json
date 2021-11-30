@@ -1,0 +1,12 @@
+{
+  "name": "Address Line 1",
+  "dataType": "string",
+  "sourceColumn": "AddressLine1",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

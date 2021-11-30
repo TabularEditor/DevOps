@@ -1,0 +1,35 @@
+{
+  "name": "Geography",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "      SELECT [dbo].[DimGeography].*   FROM [dbo].[DimGeography] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DimGeography"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "dbo"
+    },
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Geography\",",
+        "    \"fromColumn\": \"SalesTerritoryKey\",",
+        "    \"toTable\": \"Sales Territory\",",
+        "    \"toColumn\": \"SalesTerritoryKey\",",
+        "    \"isActive\": false",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

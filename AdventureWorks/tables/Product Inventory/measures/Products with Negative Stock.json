@@ -1,0 +1,51 @@
+{
+  "name": "Products with Negative Stock",
+  "expression": "CALCULATE( SUM( 'Product Inventory'[Product-Date Negative Stock] ), LASTDATE( 'Product Inventory'[Movement Date] ) )",
+  "kpi": {
+    "targetExpression": "0",
+    "statusGraphic": "Three Symbols UnCircled Colored",
+    "statusExpression": [
+      "IF(",
+      "    ISBLANK( [Products with Negative Stock] ),",
+      "    BLANK( ),",
+      "    IF( [Products with Negative Stock] < 0.1, 1, IF( [Products with Negative Stock] < 5, 0, -1 ) )",
+      ")"
+    ],
+    "annotations": [
+      {
+        "name": "GoalType",
+        "value": "StaticValue"
+      },
+      {
+        "name": "KpiStatusType",
+        "value": "LinearReversed"
+      },
+      {
+        "name": "KpiThresholdType",
+        "value": "Absolute"
+      },
+      {
+        "name": "KpiThresholdOrdering",
+        "value": "Ascending"
+      },
+      {
+        "name": "KpiThresholdCount",
+        "value": "2"
+      },
+      {
+        "name": "KpiThreshold_0",
+        "value": "0.1"
+      },
+      {
+        "name": "KpiThreshold_1",
+        "value": "5"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Inventory\"]"
+    }
+  ]
+}

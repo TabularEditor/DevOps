@@ -1,0 +1,13 @@
+{
+  "name": "Fiscal Semester",
+  "dataType": "int64",
+  "sourceColumn": "FiscalSemester",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

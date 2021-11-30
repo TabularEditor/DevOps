@@ -1,0 +1,13 @@
+{
+  "name": "Month",
+  "dataType": "int64",
+  "sourceColumn": "MonthNumberOfYear",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

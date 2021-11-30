@@ -1,0 +1,16 @@
+{
+  "name": "Geography",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimGeography].* \t\tFROM [dbo].[DimGeography]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "TableWidgetSerialization"
+    },
+    {
+      "name": "QueryEditorSerialization"
+    }
+  ]
+}

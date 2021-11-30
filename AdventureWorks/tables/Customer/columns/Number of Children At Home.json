@@ -1,0 +1,13 @@
+{
+  "name": "Number of Children At Home",
+  "dataType": "int64",
+  "sourceColumn": "NumberChildrenAtHome",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

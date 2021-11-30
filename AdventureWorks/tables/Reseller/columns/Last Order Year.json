@@ -1,0 +1,13 @@
+{
+  "name": "Last Order Year",
+  "dataType": "int64",
+  "sourceColumn": "LastOrderYear",
+  "summarizeBy": "none",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

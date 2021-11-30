@@ -1,0 +1,13 @@
+{
+  "name": "ShipDateKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ShipDateKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Internet Current Quarter Gross Profit Performance",
+  "expression": [
+    "IF(",
+    "    [Internet Previous Quarter Gross Profit Proportion to QTD] <> 0,",
+    "    ( [Internet Current Quarter Gross Profit] - [Internet Previous Quarter Gross Profit Proportion to QTD] )",
+    "        / [Internet Previous Quarter Gross Profit Proportion to QTD],",
+    "    BLANK( )",
+    ")"
+  ],
+  "kpi": {
+    "targetExpression": "1.25",
+    "statusGraphic": "Three Symbols UnCircled Colored",
+    "statusExpression": [
+      "IF(",
+      "    ISBLANK( [Internet Current Quarter Gross Profit Performance] ),",
+      "    BLANK( ),",
+      "    IF(",
+      "        [Internet Current Quarter Gross Profit Performance] < 0.8,",
+      "        -1,",
+      "        IF( [Internet Current Quarter Gross Profit Performance] < 1.03, 0, 1 )",
+      "    )",
+      ")"
+    ],
+    "annotations": [
+      {
+        "name": "GoalType",
+        "value": "StaticValue"
+      },
+      {
+        "name": "KpiStatusType",
+        "value": "Linear"
+      },
+      {
+        "name": "KpiThresholdType",
+        "value": "Absolute"
+      },
+      {
+        "name": "KpiThresholdOrdering",
+        "value": "Ascending"
+      },
+      {
+        "name": "KpiThresholdCount",
+        "value": "2"
+      },
+      {
+        "name": "KpiThreshold_0",
+        "value": "0.8"
+      },
+      {
+        "name": "KpiThreshold_1",
+        "value": "1.03"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\"]"
+    }
+  ]
+}

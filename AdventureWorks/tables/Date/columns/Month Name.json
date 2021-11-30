@@ -1,0 +1,13 @@
+{
+  "name": "Month Name",
+  "dataType": "string",
+  "sourceColumn": "EnglishMonthName",
+  "sortByColumn": "Month",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Inventory\",\"Reseller Operation\"]"
+    }
+  ]
+}

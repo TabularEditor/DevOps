@@ -1,0 +1,16 @@
+{
+  "name": "Product",
+  "source": {
+    "type": "query",
+    "query": "SELECT [dbo].[DimProduct].* \t\tFROM [dbo].[DimProduct]",
+    "dataSource": "te3-sql-training"
+  },
+  "annotations": [
+    {
+      "name": "TableWidgetSerialization"
+    },
+    {
+      "name": "QueryEditorSerialization"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Currency Code",
+  "dataType": "string",
+  "sourceColumn": "CurrencyAlternateKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

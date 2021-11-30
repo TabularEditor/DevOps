@@ -1,0 +1,62 @@
+{
+  "name": "AdventureWorks",
+  "compatibilityLevel": 1500,
+  "model": {
+    "culture": "en-US",
+    "annotations": [
+      {
+        "name": "TabularEditor_SerializeOptions",
+        "value": "{\"IgnoreInferredObjects\":false,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":true,\"LocalPerspectives\":true,\"LocalRelationships\":true,\"Levels\":[\"Data Sources\",\"Shared Expressions\",\"Roles\",\"Tables\",\"Tables/Columns\",\"Tables/Hierarchies\",\"Tables/Measures\",\"Tables/Partitions\",\"Tables/Calculation Items\"],\"IgnorePrivacySettings\":true}"
+      },
+      {
+        "name": "BestPracticeAnalyzer_IgnoreRules",
+        "value": "{\"RuleIDs\":[]}"
+      },
+      {
+        "name": "BestPracticeAnalyzer_ExternalRuleFiles",
+        "value": "[\"RelativePathRules.json\",\"${DEBUGPATH}\\\\AbsolutePathRules.json\"]"
+      },
+      {
+        "name": "BestPracticeAnalyzer",
+        "value": [
+          "[",
+          "  {",
+          "    \"ID\": \"RULE1\",",
+          "    \"Name\": \"Rule1\",",
+          "    \"Category\": \"\",",
+          "    \"Description\": \"\",",
+          "    \"Severity\": 1,",
+          "    \"Scope\": \"Model\",",
+          "    \"Expression\": \"true\",",
+          "    \"FixExpression\": null,",
+          "    \"CompatibilityLevel\": 1200,",
+          "    \"ObjectCount\": 0,",
+          "    \"ErrorMessage\": null",
+          "  },",
+          "  {",
+          "    \"ID\": \"CM_RULE1\",",
+          "    \"Name\": \"CM_Rule1\",",
+          "    \"Category\": \"\",",
+          "    \"Description\": \"\",",
+          "    \"Severity\": 1,",
+          "    \"Scope\": \"Model\",",
+          "    \"Expression\": \"true\",",
+          "    \"FixExpression\": null,",
+          "    \"CompatibilityLevel\": 1200,",
+          "    \"ObjectCount\": 0,",
+          "    \"ErrorMessage\": null",
+          "  }",
+          "]"
+        ]
+      },
+      {
+        "name": "TabularEditor_Cultures",
+        "value": "[]"
+      },
+      {
+        "name": "TabularEditor_Perspectives",
+        "value": "[{\"Name\":\"Internet Operation\",\"Description\":\"\",\"Annotations\":{}},{\"Name\":\"Inventory\",\"Description\":\"\",\"Annotations\":{}},{\"Name\":\"Reseller Operation\",\"Description\":\"\",\"Annotations\":{}}]"
+      }
+    ]
+  }
+}

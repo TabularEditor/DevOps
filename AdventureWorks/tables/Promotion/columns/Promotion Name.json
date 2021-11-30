@@ -1,0 +1,12 @@
+{
+  "name": "Promotion Name",
+  "dataType": "string",
+  "sourceColumn": "EnglishPromotionName",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Internet Operation\",\"Reseller Operation\"]"
+    }
+  ]
+}

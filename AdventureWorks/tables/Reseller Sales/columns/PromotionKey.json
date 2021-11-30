@@ -1,0 +1,13 @@
+{
+  "name": "PromotionKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "PromotionKey",
+  "attributeHierarchy": {},
+  "annotations": [
+    {
+      "name": "TabularEditor_InPerspective",
+      "value": "[\"Reseller Operation\"]"
+    }
+  ]
+}
