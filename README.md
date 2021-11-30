@@ -27,3 +27,9 @@ To replicate this in your own fork, you have to set up the following environment
   ```connectionstring
   Provider=MSOLAP;Data Source=<AS SERVER NAME>;User ID=app:<APPLICATION ID>@<TENANT ID>;Password=>APPLICATION SECRET>
   ```
+
+# Executing the workflow
+
+The workflow has a `workflow_dispatch` event trigger, so it will have to be triggered manually from the GitHub "Actions" tab. If set up correctly, the output of the workflow should look like this, indicating succesful execution of all steps:
+
+![image](https://user-images.githubusercontent.com/8976200/144059319-a50bb66d-ec1b-4b6e-b65b-dd003aeb503e.png)
