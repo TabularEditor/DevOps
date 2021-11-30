@@ -4,10 +4,10 @@ This repository is used to demonstrate Tabular Editor integration with GitHub Ac
 # Actions
 The repository contains a single [workflow](https://github.com/TabularEditor/DevOps/blob/main/.github/workflows/BuildAndValidateTabularModel.yml) which performs the following actions against the AdventureWorks model source code in the repo:
 
-1. Download Tabular Editor 2.x
+1. Uses a [PowerShell script](https://github.com/TabularEditor/DevOps/blob/main/Scripts/DownloadTE2.ps1) to Download Tabular Editor 2.x
 2. Run a Best Practice Analysis
-3. Run a Schema Check (i.e. checking that columns in the source SQL partitions are correctly mapped to imported column)
-4. Deploy the model as a dataset to a Power BI premium workspace (or any other Analysis Services instance)
+3. Run a Schema Check (i.e. checking that columns in the source SQL partitions are correctly mapped to imported column). Uses a [C# script](https://github.com/TabularEditor/DevOps/blob/main/Scripts/ReplaceDataSourceConnectionString.csx) to update the data source credentials before performing the Schema Check.
+4. Deploy the model to an instance of Analysis Services (that could be SSAS, Azure AS or Power BI XMLA).
 
 # Instructions
 
