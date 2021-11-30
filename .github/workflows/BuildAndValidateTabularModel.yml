@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  validation:
     runs-on: windows-latest
-
+    environment: dev
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
