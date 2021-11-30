@@ -27,8 +27,13 @@ jobs:
 
       - name: Perform data source schema scheck
         shell: cmd
+        env:
+          SQLDW_CONNECTIONSTRING: ${{ secrets.SQLDW_CONNECTIONSTRING }}
         run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -SC -G
 
       - name: Deploy to Power BI
         shell: cmd
-        run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -D {{AS_CONNECTIONSTRING}} ValidationDataset -O -C -G -E -W
+        env:
+          SQLDW_CONNECTIONSTRING: ${{ secrets.SQLDW_CONNECTIONSTRING }}
+          AS_CONNECTIONSTRING: ${{ secrets.AS_CONNECTIONSTRING }}
+        run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -D "%AS_CONNECTIONSTRING%" ValidationDataset -O -C -G -E -W
