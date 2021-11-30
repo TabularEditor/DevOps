@@ -1,5 +1,5 @@
 # Download URL for Tabular Editor portable:
-$TabularEditorUrl = "https://github.com/TabularEditor/TabularEditor/releases/download/2.16.4/TabularEditor.Portable.zip" 
+$TabularEditorUrl = "https://cdn.tabulareditor.com/files/te2/TabularEditor.Portable.zip" 
 
 # Download destination (root of PowerShell script execution path):
 $DownloadDestination = join-path (get-location) "TabularEditor.zip"
