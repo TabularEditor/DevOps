@@ -3,7 +3,7 @@
   "tablePermissions": [
     {
       "name": "Product",
-      "filterExpression": "Product[Color]=\"Blue\""
+      "filterExpression": "'Product'[Color]=\"Blue\""
     }
   ]
 }
