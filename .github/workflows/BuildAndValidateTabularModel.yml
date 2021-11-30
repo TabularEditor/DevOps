@@ -31,4 +31,4 @@ jobs:
 
       - name: Deploy to Power BI
         shell: cmd
-        run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -D {{AS_CONNECTIONSTRING}} DatasetDeployedFromGitHub -O -C -G -E -W
+        run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -D {{AS_CONNECTIONSTRING}} ValidationDataset -O -C -G -E -W
