@@ -32,18 +32,3 @@ jobs:
       - name: Deploy to Power BI
         shell: cmd
         run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -D {{AS_CONNECTIONSTRING}} ValidationDataset -O -C -G -E -W
-
-  deployment-dev:
-    runs-on: windows-latest
-    environment: dev
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      - name: Download Tabular Editor 2.x
-        shell: pwsh
-        run: .\Scripts\DownloadTE2.ps1
-
-      - name: Deploy to Power BI
-        shell: cmd
-        run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -D {{AS_CONNECTIONSTRING}} DeployedDataset -O -C -G
