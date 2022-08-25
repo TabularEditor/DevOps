@@ -1,5 +1,5 @@
 {
-  "name": "Internet Current Quarter Sales",
+  "name": "Current Quarter Sales",
   "expression": "TOTALQTD( [Internet Total Sales], 'Date'[Date] )",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "annotations": [

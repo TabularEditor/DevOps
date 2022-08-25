@@ -1,17 +1,24 @@
 {
-  "name": "Internet Current Quarter Sales Performance",
-  "expression": "IFERROR( [Internet Current Quarter Sales] / [Internet Previous Quarter Sales Proportion to QTD], BLANK( ) )",
+  "name": "Current Quarter Gross Profit Performance",
+  "expression": [
+    "IF(",
+    "    [Internet Previous Quarter Gross Profit Proportion to QTD] <> 0,",
+    "    ( [Current Quarter Gross Profit] - [Internet Previous Quarter Gross Profit Proportion to QTD] )",
+    "        / [Internet Previous Quarter Gross Profit Proportion to QTD],",
+    "    BLANK( )",
+    ")"
+  ],
   "kpi": {
-    "targetExpression": "1.1",
+    "targetExpression": "1.25",
     "statusGraphic": "Three Symbols UnCircled Colored",
     "statusExpression": [
       "IF(",
-      "    ISBLANK( [Internet Current Quarter Sales Performance] ),",
+      "    ISBLANK( [Current Quarter Gross Profit Performance] ),",
       "    BLANK( ),",
       "    IF(",
-      "        [Internet Current Quarter Sales Performance] < 1,",
+      "        [Current Quarter Gross Profit Performance] < 0.8,",
       "        -1,",
-      "        IF( [Internet Current Quarter Sales Performance] < 1.07, 0, 1 )",
+      "        IF( [Current Quarter Gross Profit Performance] < 1.03, 0, 1 )",
       "    )",
       ")"
     ],
@@ -38,11 +45,11 @@
       },
       {
         "name": "KpiThreshold_0",
-        "value": "1"
+        "value": "0.8"
       },
       {
         "name": "KpiThreshold_1",
-        "value": "1.07"
+        "value": "1.03"
       }
     ]
   },
