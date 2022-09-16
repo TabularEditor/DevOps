@@ -1,6 +1,6 @@
 {
   "name": "Internet Total Freight",
-  "expression": "SUM( 'Internet Sales'[Freight] )",
+  "expression": "SUM( 'Internet Sales'[Freight] ) * 2",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "annotations": [
     {
