@@ -1,6 +1,6 @@
 {
   "name": "Internet Total Sales",
-  "expression": "SUM( 'Internet Sales'[Sales Amount] ) * 0.9",
+  "expression": "SUM( 'Internet Sales'[Sales Amount] )",
   "annotations": [
     {
       "name": "TabularEditor_InPerspective",
