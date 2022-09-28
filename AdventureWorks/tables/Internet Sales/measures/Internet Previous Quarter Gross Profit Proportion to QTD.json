@@ -2,7 +2,7 @@
   "name": "Internet Previous Quarter Gross Profit Proportion to QTD",
   "expression": "[Internet Previous Quarter Gross Profit] * ( [Days In Current Quarter to Date] / [Days In Current Quarter] )",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
-  "displayFolder": "Previous Quarter",
+  "displayFolder": "Internet Previous Quarter",
   "annotations": [
     {
       "name": "Format",
