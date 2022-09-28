@@ -2,6 +2,7 @@
   "name": "Internet Previous Quarter Gross Profit",
   "expression": "CALCULATE( [Internet Total Gross Profit], PREVIOUSQUARTER( 'Date'[Date] ) )",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Previous Quarter",
   "annotations": [
     {
       "name": "Format",

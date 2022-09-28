@@ -1,6 +1,7 @@
 {
   "name": "Current Quarter Sales Performance",
   "expression": "IFERROR( [Current Quarter Sales] / [Internet Previous Quarter Sales Proportion to QTD], BLANK( ) )",
+  "displayFolder": "Current Quarter",
   "kpi": {
     "targetExpression": "1.1",
     "statusGraphic": "Three Symbols UnCircled Colored",

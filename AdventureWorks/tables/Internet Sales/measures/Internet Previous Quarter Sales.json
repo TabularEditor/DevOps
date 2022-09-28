@@ -2,6 +2,7 @@
   "name": "Internet Previous Quarter Sales",
   "expression": "CALCULATE( [Internet Total Sales], PREVIOUSQUARTER( 'Date'[Date] ) )",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Previous Quarter",
   "annotations": [
     {
       "name": "Format",

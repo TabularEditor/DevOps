@@ -8,6 +8,7 @@
     "    BLANK( )",
     ")"
   ],
+  "displayFolder": "Current Quarter",
   "kpi": {
     "targetExpression": "1.25",
     "statusGraphic": "Three Symbols UnCircled Colored",

@@ -2,6 +2,7 @@
   "name": "Internet Previous Quarter Sales Proportion to QTD",
   "expression": "[Internet Previous Quarter Sales] * ( [Days In Current Quarter] / [Days In Current Quarter] )",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Previous Quarter",
   "annotations": [
     {
       "name": "Format",

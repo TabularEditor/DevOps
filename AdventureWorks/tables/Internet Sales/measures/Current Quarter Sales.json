@@ -2,6 +2,7 @@
   "name": "Current Quarter Sales",
   "expression": "TOTALQTD( [Internet Total Sales], 'Date'[Date] )",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Current Quarter",
   "annotations": [
     {
       "name": "Format",
