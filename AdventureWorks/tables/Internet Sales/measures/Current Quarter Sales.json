@@ -1,5 +1,6 @@
 {
   "name": "Current Quarter Sales",
+  "description": "Test",
   "expression": "TOTALQTD( [Internet Total Sales], 'Date'[Date] )",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "displayFolder": "Current Quarter",

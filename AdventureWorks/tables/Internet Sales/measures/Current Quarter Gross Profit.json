@@ -1,6 +1,6 @@
 {
   "name": "Current Quarter Gross Profit",
-  "expression": "TOTALQTD( [Internet Total Gross Profit], 'Date'[Date] )",
+  "expression": "TOTALQTD( [Internet Total Gross Profit], 'Date'[Date] ) * 0.5",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "displayFolder": "Current Quarter",
   "annotations": [
