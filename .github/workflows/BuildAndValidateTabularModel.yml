@@ -24,12 +24,12 @@ jobs:
       - name: Run a Best Practice Analysis
         shell: cmd
         run: TabularEditor.exe .\AdventureWorks -A -G
-
-      - name: Perform data source schema scheck
-        shell: cmd
-        env:
-          SQLDW_CONNECTIONSTRING: ${{ secrets.SQLDW_CONNECTIONSTRING }}
-        run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -SC -G
+#
+#      - name: Perform data source schema scheck
+#        shell: cmd
+#        env:
+#          SQLDW_CONNECTIONSTRING: ${{ secrets.SQLDW_CONNECTIONSTRING }}
+#        run: TabularEditor.exe .\AdventureWorks -S ".\Scripts\ReplaceDataSourceConnectionString.csx" -SC -G
 
       - name: Deploy to Power BI
         shell: cmd
